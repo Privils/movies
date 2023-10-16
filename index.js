@@ -23,9 +23,7 @@ function showMovies(data){
     data.forEach(movie => {
         const {title, poster_path, vote_average, overview} = movie
         const movieEl = document.createElement('div');
-
         movieEl.classList.add('movie')
-
         movieEl.innerHTML = `
         <img src="${image_url+poster_path}" alt="${title}"/>
         <div class="movie-info">
