@@ -1,5 +1,5 @@
 
-const API_KEY = "api_key=a9184ee3895ce4942d20b5c55d53675e";
+const API_KEY = "api_key=2396da8117cda1bcdd20fa75f49591f6";
 const BASE_URL ="https://api.themoviedb.org/3";
 const API_URL = BASE_URL + '/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&' + API_KEY
 const image_url = 'https://image.tmdb.org/t/p/w500/'
